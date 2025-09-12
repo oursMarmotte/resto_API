@@ -34,7 +34,7 @@ source:
     root: backend/
 
 relationships:
-    database: "mysql:mysql"
+    database: "db:mysql"
 
 
 hooks:
