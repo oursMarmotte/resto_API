@@ -22,9 +22,11 @@ web:
         "/":
             root: "public"
             index:
-                - "index.html"
-            scripts: false
-            expires: 10m
+            expires:1h
+            passthru: "/index.php"
+            #     - "index.html"
+            # scripts: false
+            # expires: 10m
 
 mounts:
     "/var": { source: local, source_path: var }
@@ -32,6 +34,9 @@ mounts:
 
 source:
     root: backend/
+
+relationships:
+    database: "mysql:mysql"
 
 
 hooks:
