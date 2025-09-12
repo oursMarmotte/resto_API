@@ -33,7 +33,7 @@ source:
     root: backend/
 
 relationships:
-    database: "db:mariadb"
+    database: "db:mysql"
 
 
 hooks:
