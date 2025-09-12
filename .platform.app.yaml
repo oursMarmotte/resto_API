@@ -1,4 +1,4 @@
-name: app
+name: restoAPI
 
 type: php:8.2
 
@@ -30,7 +30,8 @@ mounts:
     "/var": { source: local, source_path: var }
 
 
-
+source:
+    root: lunchRepo-devServeur/backend/
 
 
 hooks:
