@@ -1,4 +1,1 @@
 
-database:
-    type: mysql:10.6
-    disk: 512
