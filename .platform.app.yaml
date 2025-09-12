@@ -21,7 +21,7 @@ web:
     locations:
         "/":
             root: "public"
-            index_files:
+            index:
                 - "index.php"
             scripts: false
             expires: 10m
