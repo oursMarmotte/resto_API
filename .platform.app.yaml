@@ -31,7 +31,7 @@ mounts:
 
 
 source:
-    root: lunchRepo-devServeur/backend/
+    root: backend/
 
 
 hooks:
