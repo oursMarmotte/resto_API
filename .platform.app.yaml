@@ -21,9 +21,9 @@ web:
     locations:
         "/":
             root: "public"
-            index:
             expires:1h
             passthru: "/index.php"
+
             #     - "index.html"
             # scripts: false
             # expires: 10m
