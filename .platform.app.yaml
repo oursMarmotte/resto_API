@@ -32,7 +32,7 @@ source:
     root: backend/
 
 relationships:
-  database: "db:mysql"
+     database: 'db:mysql'
 
 
 hooks:
