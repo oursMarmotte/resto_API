@@ -1,2 +1,0 @@
-"https://{all}/": { type: upstream, upstream: "resto_api:http" }
-"http://{all}/": { type: redirect, to: "https://{all}/" }
